@@ -1,0 +1,22 @@
+NovaX™ V53 — 15 Strength Marker Test Build
+
+Purpose
+- Test the 15 generated strength-marker concepts against the existing V53 Builder Card implementation.
+- No production approval is implied by this test build.
+
+Marker mapping
+- Visionary Builder™: Big-picture thinking, Opportunity recognition, Ambition
+- Hustler Builder™: Execution, Ownership, Momentum
+- Creator Builder™: Creation, Problem-solving, Making ideas real
+- Network Builder™: Relationships, Connection, Collaboration
+- Future Builder™: Curiosity, Potential, Self-discovery
+
+Implementation
+- Added 15 concept marker PNGs under assets/strength-markers/.
+- Results Builder Card now selects the marker by canonical strength name instead of using positional ✦ / ◇ / ◌ placeholders.
+- The downloadable Builder Card canvas export uses the same dynamic marker mapping.
+- Existing V53 canonical archetype/strength object remains unchanged.
+- No existing assets were deleted.
+
+Status
+- TEST ONLY. Marker artwork is not designated approved artwork.

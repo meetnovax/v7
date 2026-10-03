@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NovaX™ — Building the Parallel Economy™</title>
+<meta name="description" content="NovaX™ — Building the Parallel Economy™. What would you do with $50K? Take the quiz to see if you qualify for NovaX™.">
+<meta name="theme-color" content="#030a16">
+<style>
+:root{--page-bg:#030a16;--footer:#03070d;--footer-text:#8b96a8;--footer-link:#b9c6d8}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:var(--page-bg);color:#fff;font-family:Arial,Helvetica,sans-serif}
+body{min-height:100svh;overflow-x:hidden}
+.landing-page{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;background:var(--page-bg);overflow-x:hidden}
+.landing-stage{position:relative;flex:0 0 auto;width:100vw;height:100svh;min-height:0;overflow:hidden;background:var(--page-bg);display:flex;align-items:center;justify-content:center}
+.landing-art{display:block;width:auto;height:100%;max-width:none;object-fit:contain;flex:0 0 auto}
+.landing-art--landscape{display:none}
+.landing-cta{position:absolute;left:25.6%;top:48.0%;width:48.5%;height:6.0%;z-index:3;display:block;border-radius:999px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.landing-cta:focus-visible{outline:3px solid #fff;outline-offset:6px}
+.site-footer{width:100%;display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;padding:14px 12px 16px;background:var(--footer);color:var(--footer-text);font-size:10px;line-height:1.4;letter-spacing:.08em;text-transform:uppercase;text-align:center}
+.site-footer a{color:var(--footer-link);text-decoration:none}.site-footer a:hover{color:#fff}.site-footer a:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+@media (min-width:768px) and (orientation:landscape){
+ .landing-stage{width:100vw;height:min(100svh,56.32775vw);max-height:100svh}
+ .landing-art--portrait{display:none}
+ .landing-art--landscape{display:block;width:100%;height:100%;object-fit:fill}
+ .landing-cta{left:38.0%;top:46.0%;width:24.0%;height:8.0%}
+}
+@media (max-width:767px),(orientation:portrait){
+ .landing-art--portrait{display:block}
+ .landing-art--landscape{display:none}
+ .landing-cta{left:25.6%;top:48.0%;width:48.5%;height:6.0%}
+}
+@media (prefers-reduced-motion:reduce){.landing-cta{transition:none}}
+</style>
+</head>
+<body>
+<main class="landing-page" aria-label="NovaX™ landing page">
+  <section class="landing-stage" aria-label="NovaX™ introduction">
+    <img class="landing-art landing-art--portrait" src="assets/NovaX_LOCKED_PORTRAIT_REFERENCE.png" alt="NovaX™ — Building the Parallel Economy™. What would you do with $50K?">
+    <img class="landing-art landing-art--landscape" src="assets/NovaX_LOCKED_LANDSCAPE_REFERENCE.png" alt="" aria-hidden="true">
+    <a class="landing-cta" href="quiz.html" aria-label="Let's begin the NovaX™ quiz"><span class="sr-only">LET’S BEGIN →</span></a>
+  </section>
+  <nav class="site-footer" aria-label="Site navigation">
+    <span>Copyright © 2026 NovaX™</span><span aria-hidden="true">•</span>
+    <a href="index.html">Home</a><span aria-hidden="true">•</span>
+    <a href="quiz.html">Quiz</a><span aria-hidden="true">•</span>
+    <a href="privacy.html">Privacy</a><span aria-hidden="true">•</span>
+    <a href="terms.html">Terms</a>
+  </nav>
+</main>
+</body>
+</html>
